@@ -61,7 +61,7 @@ sudo apt-get install ros-melodic-pcl-ros
     
     Para controlar el robot puede usar:
 
-    ```bash
+    ```
     Reading from the keyboard  and Publishing to Twist!
     ---------------------------
     Moving around:
