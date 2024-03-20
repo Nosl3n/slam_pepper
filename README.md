@@ -9,6 +9,7 @@ Este repositorio contiene los paquetes necesarios para realizar Simultaneous Loc
 - **Paquetes ROS:**
   - `ros-melodic-teleop-twist-keyboard`: Para controlar el robot Pepper utilizando el teclado.
   - `ros-melodic-slam-gmapping`: Para realizar el mapeo utilizando el algoritmo GMapping.
+  - `ros-melodic-pcl-ros`: Para realizar el procesamiento de nubes de puntos.
 
 ## Instalación de dependencias
 
@@ -18,6 +19,7 @@ Para instalar los paquetes necesarios, ejecute los siguientes comandos en una ve
 sudo apt update
 sudo apt install ros-melodic-teleop-twist-keyboard
 sudo apt install ros-melodic-slam-gmapping
+sudo apt-get install ros-melodic-pcl-ros
 ```
 ## Uso
 
