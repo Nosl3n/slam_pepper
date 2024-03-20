@@ -1,0 +1,10 @@
+<!-- gmapping_rviz.launch -->
+<launch>
+  <!-- Run rviz with your configuration file -->
+  <node 
+    pkg="rviz" type="rviz" name="rviz" args="-d $(find gmapping)/src/slam.rviz"/> 
+  <!-- teleop_twist_keyboard.launch -->
+  <node 
+    pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard" output="screen" />
+
+</launch>
