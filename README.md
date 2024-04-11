@@ -94,5 +94,5 @@ sudo apt-get install ros-melodic-pcl-ros
     ```
 ## Paso adicional
     
-Para configurar correctamente el robot Pepper y habilitar la funcionalidad de SLAM, se debe reemplazar el archivo naoqi_joint_states.py ubicado en: ws/src/naoqi_brige/naoqi_driver_py/nodes, el cual       es resultado de clonar el repositorio: https://github.com/ros-naoqi/naoqi_bridge.git, por el archivo provisto en este repositorio.
+Para configurar correctamente el robot Pepper y habilitar la funcionalidad de SLAM, se debe reemplazar el archivo `naoqi_joint_states.py` ubicado en: `ws/src/naoqi_brige/naoqi_driver_py/nodes`, el cual   es resultado de clonar el repositorio: https://github.com/ros-naoqi/naoqi_bridge.git, por el archivo provisto en este repositorio.
     
